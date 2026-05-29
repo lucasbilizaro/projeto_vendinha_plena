@@ -146,3 +146,4 @@ C:\Users\Windows\source\repos\Vendinha\Vendinha.Api\obj\Debug\net10.0\refint\Ven
 C:\Users\Windows\source\repos\Vendinha\Vendinha.Api\obj\Debug\net10.0\Vendinha.Api.pdb
 C:\Users\Windows\source\repos\Vendinha\Vendinha.Api\obj\Debug\net10.0\Vendinha.Api.genruntimeconfig.cache
 C:\Users\Windows\source\repos\Vendinha\Vendinha.Api\obj\Debug\net10.0\ref\Vendinha.Api.dll
+C:\Users\Windows\source\repos\Vendinha\Vendinha.Api\obj\Debug\net10.0\Vendinha.Api.sourcelink.json

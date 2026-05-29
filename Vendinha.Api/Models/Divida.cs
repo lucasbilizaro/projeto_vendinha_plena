@@ -9,5 +9,5 @@ public class Divida
     public DateTime? DataPagamento { get; set; }
 
     public int ClienteId { get; set; }
-    public Cliente Cliente { get; set; } = null!;
+    public Cliente? Cliente { get; set; } 
 }

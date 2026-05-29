@@ -3,17 +3,20 @@ using Vendinha.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
-// Banco SQLite
 builder.Services.AddDbContext<VendinhaDbContext>(options =>
     options.UseSqlite("Data Source=vendinha.db"));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<VendinhaDbContext>();
+    db.Database.EnsureCreated();
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

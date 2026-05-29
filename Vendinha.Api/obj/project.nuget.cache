@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZutIgBmEmM=",
+  "dgSpecHash": "5JduJ5PIYtk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows\\source\\repos\\Vendinha\\Vendinha.Api\\Vendinha.Api.csproj",
+  "projectFilePath": "C:\\Users\\Windows\\source\\repos\\Vendinha\\Vendinha.api\\Vendinha.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
